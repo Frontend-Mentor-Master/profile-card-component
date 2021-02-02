@@ -1,0 +1,34 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --dark-desaturated-blue: hsl(229, 23%, 23%);
+  --grayishblue: hsl(227, 10%, 46%);
+}
+
+body{
+
+  background-color: var(--dark-cyan);
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  border-radius: 5px;
+  background-color: #fff;
+  width: 500px;
+  text-align: center;
+}
+
+.card__head{
+  height: 100vh;
+  background-image: linear-gradient(to bottom, var(--dark-cyan) 50%, white 50%);
+  text-align: center;
+}
+
+.head__photo{
+  max-width: 100px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
