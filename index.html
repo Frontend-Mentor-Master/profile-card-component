@@ -16,6 +16,7 @@
     .attribution {
       font-size: 11px;
       text-align: center;
+      margin-top: 20px;
     }
 
     .attribution a {
@@ -25,47 +26,37 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <article class="card">
-      <div class="card__head">
-        <figure class="head__photo">
-          <img src="/images/image-victor.jpg" alt="Photo Victor">
-        </figure>
-      </div>
-      <div class="card__body">
-        <div class="data">
-          <h3 class="name__data">Victor Crest</h3>
-          <span class="age__data">26</span>
-          <span class="country__data">
-            London
-          </span>
-        </div>
-      </div>
-      <div class="card__footer">
-        <p class="footer__followers">
-          <span>
-            80K
-          </span>
-          Followers
-        </p>
-        <p class="footer__likes">
-          <span>
-            803K
-          </span>
-          Likes
-        </p>
-        <p class="footer__photos">
-          <span>
-            1.4K
-          </span>
-          Photos
+  <article class="card">
+    <header class="card__header">
+      <img class="header__photo" src="/images/image-victor.jpg" alt="Photo Victor">
+    </header>
+    <section class="card__body">
+      <p class="card__text">Victor Crest <span class=" card__text card-text--light">26</span></p>
+      <p class="card__text card-text--light">
+        London
+      </p>
+    </section>
+    <footer class="card__footer">
+      <div class="card__stats">
+        <p class="card__number">80K
+          <span class="card__text--light">Followers</span>
         </p>
       </div>
-    </article>
-  </div>
+      <div class="card__stats">
+        <p class="card__number">803K
+          <span class="card__text--light">Likes</span>
+        </p>
+      </div>
+      <div class="card__stats">
+        <p class="card__number">1.4K
+          <span class="card__text--light">Photos</span>
+        </p>
+      </div>
+    </footer>
+  </article>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://twitter.com/wldrocha">Wladimir Rocha</a>.
   </div>
 </body>
 
